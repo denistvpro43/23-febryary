@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rye&display=swap');
+
+
+:root {
+    --fontba: "Libre Baskerville", serif;
+    --fontmo: "IBM Plex Mono", serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.header__title {
+    color: rgb(255, 115, 0);
+    font-family: var(--fontmo);
+}
+
+.container {
+    
+}
+
+.grettings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grettings img {
+    max-width: 500px;
+}
+
+.grettings__content {
+    background-color: rgb(139, 251, 255);
+}
+
+.grettings__title {
+    color: blue;
+    font-family: var(--fontmo);
+}
+
+.grettings__text {
+    color: rgb(255, 17, 0);
+    font-family: var(--fontba);
+}
+
+.grettings__btn {
+    color: rgb(255, 0, 0);
+    font-family: var(--fontba);
+    background-color: black;
+    padding: 11px;
+}
+
+.footer {
+    background-color: rgb(106, 255, 255);
+}
+
+.footer__text {
+    color: rgba(197, 82, 255, 0.95);
+    font-family: var(--fontmo);
+}
